@@ -28,7 +28,7 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 
 @dp.message_handler(commands=['help', 'start', 'info', 'hey'])
 async def send_welcome(message: types.Message):
-    await message.reply("*__Вас приветствует RotexBot\!__*\n\n"
+    await message.reply("*__Вас приветствует RotexBot\!__*\n\n" 
                         "Я разработан специально для организации двусторонней\n"
                         "связи между Telegram чатами и Discord каналами\n\n"
                         "*Команды, которые я поддерживаю:*\n"
