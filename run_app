@@ -1,0 +1,6 @@
+#!/bin/bash
+echo ""
+echo "Please, wait for a while"
+echo "The application is starting..."
+python discord_bot.py &
+python telegram_bot.py &
